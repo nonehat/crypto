@@ -15,3 +15,6 @@ LiteCoin: Scrypt,抗ASIC的并行计算和要求更大的内存空间
 ETHash： 消耗大量的内存 --ETH
 
 Equihash： 广义生日悖论的算法，1G内存 --ZCash
+
+
+ref: https://zhuanlan.zhihu.com/p/23215094
