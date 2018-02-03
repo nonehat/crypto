@@ -1,0 +1,17 @@
+
+BTC: SHA256
+
+LiteCoin: Scrypt,抗ASIC的并行计算和要求更大的内存空间
+
+串联算法： 多种哈希算法串联计算，如X11, X13, X15 等
+
+并行算法（HVC算法 为例）：
+  -- 对输入数据首先运行一次HEFTY1（一种Hash算法）运算，得到结果d1
+  -- 以d1为输入，依次进行SHA256、KECCAK512、GROESTL512、BLAKE512运算，分别获得输出d2,d3,d4和d5
+  -- 分别提取d2-d5前64位，混淆后形成最终的256位Hash结果，作为区块ID。
+
+科研友好型算法（素数、蛋白质计算等） --PrimeCoin
+
+ETHash： 消耗大量的内存 --ETH
+
+Equihash： 广义生日悖论的算法，1G内存 --ZCash
