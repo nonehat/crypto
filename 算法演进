@@ -1,4 +1,5 @@
 
+[N]算法演进： https://zhuanlan.zhihu.com/p/23215094
 BTC: SHA256
 
 LiteCoin: Scrypt,抗ASIC的并行计算和要求更大的内存空间
@@ -18,3 +19,10 @@ Equihash： 广义生日悖论的算法，1G内存 --ZCash
 
 
 ref: https://zhuanlan.zhihu.com/p/23215094
+
+
+[N]共识机制演进： https://zhuanlan.zhihu.com/p/24486576
+PoW: F(Nonce) < Target
+PoS: F(Timestamp) < Target * Balance
+
+[N]挖矿演进： https://zhuanlan.zhihu.com/p/23558268
