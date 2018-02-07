@@ -14,7 +14,13 @@ material list:
 9. [N]跨链技术介绍： http://www.8btc.com/elwingao-blockchain-8
 10. node.js开发加密货币： http://bitcoin-on-nodejs.ebookchain.org/
 
+理解比特币脚本： https://zhuanlan.zhihu.com/p/25461051
+比特币脚本指令： http://www.8btc.com/bitcoin_scripts
+
+比特币源码学习笔记： http://www.8btc.com/author/17786
+
 
 DAO?
 PoS
+
 区块链架构图： http://upload-images.jianshu.io/upload_images/5787099-66ef7110bd66c91e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
