@@ -14,6 +14,7 @@ material list:
 9. [N]跨链技术介绍： http://www.8btc.com/elwingao-blockchain-8
 10. node.js开发加密货币： http://bitcoin-on-nodejs.ebookchain.org/
 Solidity：https://solidity.readthedocs.io  https://learnblockchain.cn/categories/ethereum/Solidity/
+11. DPoS：https://steemit.com/dpos/@dantheman/dpos-consensus-algorithm-this-missing-white-paper 、https://steemit.com/dpos/@legendx/dpos  
 
 理解比特币脚本： https://zhuanlan.zhihu.com/p/25461051
 比特币脚本指令： http://www.8btc.com/bitcoin_scripts
