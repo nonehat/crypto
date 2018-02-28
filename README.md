@@ -2,6 +2,7 @@
 cryptocurrency
 
 material list:
+0. [N]拜占庭将军问题： http://www.8btc.com/baizhantingjiangjun
 1. [Y]精通比特币： http://zhibimo.com/read/wang-miao/mastering-bitcoin/index.html
 2. [Y]区块链技术指南： https://www.gitbook.com/book/yeasy/blockchain_guide 
 3. [Y]中本聪论文： https://bitcoin.org/bitcoin.pdf or http://btc.wu123.com/bitcoin_cn.pdf
