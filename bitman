@@ -1,0 +1,60 @@
+#coding=utf8
+#bitman.py
+'''
+微信自动回复机器人
+'''
+
+import time
+class coinMarketCap:
+	def __init__(self)
+		self.dict = {}
+		self.ctime = time.time()
+		update_coin_data()
+	
+	def update_coin_data(self):
+		
+	def get(self, name):
+		if (time.time() - self.ctime) > 5 * 60: 
+			update_coin_data()
+			self.ctime = time.time()
+		return name in self.dict.keys()? self.dict[name] : None
+			 
+
+class cryptoCoin:
+	'''name,rank,price,volume,change'''
+	def __init__(self):
+		self.name	= name
+		self.rank	= rank
+		self.price	= price
+		self.change	= change
+		self.volume	= volume
+	
+	def tostring(self):
+		return ''
+
+from wxpy import *
+
+def get_allcoin_data():
+
+			
+
+#声明bot
+bot = Bot(cache_path=True)
+
+#群
+keai_group = ensure_one(bot.groups().search('可爱超短水群'))
+
+#好友
+friend = ensure_one(bot.friends().search('freeman'))
+
+@bot.register(keai_group, TEXT)
+def auto_replay(msg):
+	if not msg.text.startswith('#'):
+		return
+	else:
+		name = msg.text.strip().strip('#')
+		if name in COIN_DICT.keys():
+			coin = COIN_DICT.get(name)
+			return show_coin_data(coin)
+		else:
+			return 'Sorry,小b不明白你在说什么..'
